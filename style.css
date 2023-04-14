@@ -90,7 +90,15 @@ body {
 }
 .buttons .refresh {
     background-color: #6c757d;
+    transition: 0.4s;
+}
+.buttons .refresh:hover {
+    background-color: #03030360;
+}
+.buttons .copy:hover {
+    background-color: #03030360;
 }
 .buttons .copy {
     background: #8a6cff;
+    transition: 0.666s;
 }

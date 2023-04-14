@@ -25,7 +25,7 @@ const generatorGradient = (isRandom) => {
 }
 
 const copyCode = () => {navigator.clipboard.writeText(textarea.value); copyBotton.innerText = "Code copied";
- setTimeout(() => copyBotton.innerText = 'Copy code', 1321);}
+ setTimeout(() => copyBotton.innerText = 'Copy code', 1221);}
 
 colorInputs.forEach(input => {
     input.addEventListener('input', () => generatorGradient(false))
